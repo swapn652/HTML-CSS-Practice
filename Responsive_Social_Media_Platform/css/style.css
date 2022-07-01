@@ -1,0 +1,117 @@
+html, 
+body {
+    background-color:#151728;
+    
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: black;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(53, 53, 53);
+    border-radius: 10px;
+  }
+
+/* Left section */
+nav{
+  font-family: "DM Sans", sans-serif;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  height: 68px;
+  line-height: 68px;
+  letter-spacing: 4px;
+  position: sticky;
+  top: 0;
+  background: linear-gradient(to bottom, #151728 0%, #151728 76%, rgba(21, 23, 40, 0) 100%);
+}
+
+.left{
+    
+    width: 15%;
+    overflow: auto;
+    padding-left: 0px;
+}
+
+.left h3{
+    text-align: center;
+    color: white;
+}
+
+.left h4{
+    color: #5c5e6e;
+    padding-left: 38px;
+}
+
+.left ul{
+    list-style: none;
+}
+
+.left ul a{
+    color: #9c9cab;
+}
+
+.left ul a:hover{
+    color: white;
+}
+
+.left footer{
+    color: #9c9cab;
+}
+
+.menu{
+    padding: 10px 0;
+}
+
+.menu ul li{
+    padding-bottom: 20px;
+}
+
+/* hr */
+hr{
+    border-color: gray;
+    opacity: 0.5;
+}
+
+
+.mid{
+    /* background-color: blue; */
+    width: 70%;
+}
+
+.favorites{
+    padding: 10px 0;
+}
+
+.favorites ul li{
+    padding-bottom: 20px;
+}
+
+.mid{
+    /* background-color: blue; */
+    width: 70%;
+}
+
+.right{
+    /* background-color: red; */
+    width: 15%;
+}
+
+.main{
+    display: flex;
+    height: 725px;
+}
